@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="bg-white">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noyon - penguin-fashion</title>
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-regular.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .box_container {
+            max-width: 1440px;
+            padding: 0px 60px;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width:599px) {
+            .box_container {
+                padding: 0px 15px;
+            }
+        }
+
+        @media screen and (min-width:600px) and (max-width:992px) {
+            .box_container {
+                padding: 0px 30px;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: 'Roboto', sans-serif; background-color: #fff;" class="">
+
+    <header class="header pt-4">
+        <div class="box_container mx-auto">
+            <nav class="lg:flex items-center justify-between">
+                <div class="had_logo">
+                    <img class="h-12" src="icons/logo.png" alt="">
+                </div>
+                <div class="hea_title mt-[40px] lg:mt-[0px]">
+                    <ul class="flex gap-6 font-[500]">
+                        <li><a href="#">Home</a></li>
+                        <li><a hr ef="#">Product</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bennar mt-[100px]">
+        <div class="box_container mx-auto grid-cols-1  grid lg:grid-cols-2 gap-5 justify-between items-center">
+
+            <div class="ban_title order-1 text-center lg:order-0 lg:text-left ">
+                <h1 class="text-[60px] text-[#FABE4C] uppercase font-bold">BE THE PENGUINS <span
+                        class=" text-[#363958]">OF WINTER</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing <br>
+                    and typesetting industry.</p>
+                <button
+                    class=" hover:scale-95 font-bold transition-all   bg-[#85A019] px-9  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-6">
+                    <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+            </div>
+
+            <div class="lg:order-1 ban_img flex justify-center lg:justify-end">
+                <img class=" lg:h-[600px] " src="images/model.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="ctegorey_one mt-[100px]">
+        <div class="box_container">
+
+            <div class="title">
+                <h1 class="text-[48px] uppercase text-[#363958] font-bold">WoMan Jacket</h1>
+            </div>
+
+            <div class="card_container grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 mt-[60px] gap-[60px]">
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-1.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Yellow Coat Jacket </h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-2.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Ladies Jacket</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-3.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Red Coat Jacket</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="ctegorey_one mt-[90px]">
+        <div class="box_container">
+
+            <div class="title">
+                <h1 class="text-[48px] uppercase text-[#363958] font-bold">MAN JACKET</h1>
+            </div>
+
+            <div class="card_container grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 mt-[60px] gap-[60px]">
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-4.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Snowboard Jacket Mens</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-5.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Man Leather Jackets</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="images/jacket-6.png" class="h-[450px] mx-auto">
+                    </div>
+                    <div class="card_title mt-[30px]">
+                        <h1 class="text-[24px] capitalize text-[#363958] font-bold  ">Man Casual Jackets</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="buttons flex justify-between items-center">
+                            <h2 class="text-[36px] font-[700] text-[#FABE4C]">$234</h2>
+                            <button
+                                class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+                                <i class="fas fa-shopping-cart mr-2"></i> buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="shoping mt-[200px]">
+        <div class="box_container">
+            <div class="shoping_desc grid grid-cols-2 items-center justify-between">
+
+                <div class="shping_met   lg:mt-0 mt-16  grid grid-cols-1 gap-[60px]">
+
+                    <div class="img_card flex max-w-[380px] gap-5 items-center">
+                        <img class="h-[100px]" src="icons/house.png" alt="">
+                        <div class="title">
+                            <h2 class="text-[#363958] font-bold">Find the Perfect Fit</h2>
+                            <p class="leading-7">Everybody is different, which is why we offer styles for every body.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="img_card flex max-w-[380px] gap-5 items-center">
+                        <img class="h-[100px]" src="icons/box.png" alt="">
+                        <div class="title">
+                            <h2 class="text-[#363958] font-bold">Contact Our Seller</h2>
+                            <p class="leading-7">They are here to help you. That's quite
+                                literally what we pay them for.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="img_card flex max-w-[380px] gap-5 items-center">
+                        <img class="h-[100px]" src="icons/question.png" alt="">
+                        <div class="title">
+                            <h2 class="text-[#363958] font-bold">Free Exchanges</h2>
+                            <p class="leading-7">One of the many reasons you can shop
+                                with peace of mind.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="shoping_profile">
+                    <img src="images/shopping.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-slate-600 mt-24 py-14">
+        <div class="container mx-auto">
+            <div class="fo_con mx-auto text-center flex flex-col justify-center bg">
+                <div class="brend mx-auto">
+                    <img class="h-10" src="icons/logo.png" alt="">
+                </div>
+                <ul class="flex justify-center mt-8">
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#">home</a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#">about</a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#">contact</a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#">solution</a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#">about</a></li>
+                </ul>
+                <ul class="flex justify-center mt-8 text-3xl">
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class=" mx-4 uppercase text-purple-50"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    
+                </ul>
+                <ul class="flex justify-center mt-8">
+                    <li class=" mx-5 uppercase text-slate-400 "><a href="#">privacy policy</a></li>
+                    <li class=" mx-5 uppercase text-slate-400 "><a href="#">terms</a></li>
+                    <li class=" mx-5 uppercase text-slate-400 "><a href="#">conditions</a></li>
+                    <li class=" mx-5 uppercase text-slate-400 "><a href="#">solution</a></li>
+    
+                </ul>
+                <p class="copyright mt-6 capitalize text-lg text-slate-400">© copyright all ecomerce.shoping.io right
+                    reserved by md Noyon Islam</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <button
+        class=" hover:scale-95 font-bold transition-all  bg-[#85A019] px-7  py-4 rounded-md uppercase text-[#FFFFFF]  text-lg mt-4">
+        <i class="fas fa-shopping-cart mr-2"></i> buy now</button> -->
+
+</body>
+
+</html>
